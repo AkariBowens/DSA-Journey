@@ -1,7 +1,7 @@
 ### ✅ Progress Tracker
 
 - [x] Week 1: Two Sum [Solution on LeetCode.com](https://leetcode.com/problems/two-sum/submissions/1624702769) | [JavaScript Solution](https://github.com/AkariBowens/DSA-Journey/blob/ed1348b17e10025d3478c55c83d26e0f12f0275d/Grind75/Week%20One/two_sum.js)
-- [ ] Week 1: Valid Parentheses
+- [x] Week 1: Valid Parentheses [JavaScript Solution](https://leetcode.com/problems/valid-parentheses/submissions/1636790387)
 - [ ] Week 1: Merge Two Sorted Lists
 - [ ] Week 1: Best Time to Buy and Sell Stock
 - [ ] Week 1: Valid Palindrome
