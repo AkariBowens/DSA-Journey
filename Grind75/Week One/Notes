@@ -3,4 +3,11 @@
 ## Two sum
 ## Valid parentheses
 ## Merge two sorted lists
+- list1 = [1, 2, 4]
+- list2 = [1, 3, 4]
+- console.log(list1.val) points to the head - 1
+- console.log(list1.next) points to the next number in the list, and shows a "new" list [2, 4]
+- sending the next pointer back into the merge function, gives the function a new parameters - 
+- After the first call, the loop would be mergeTwoLists([2, 4], [1, 3, 4])
+- What does assigning the result to list1.next or list2.next do?
 
