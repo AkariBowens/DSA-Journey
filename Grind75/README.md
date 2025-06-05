@@ -3,7 +3,7 @@
 - [x] Week 1: Two Sum [Solution on LeetCode.com (Python)](https://leetcode.com/problems/two-sum/submissions/1624702769) | [GitHub Solution (JavaScript)](https://github.com/AkariBowens/DSA-Journey/blob/ed1348b17e10025d3478c55c83d26e0f12f0275d/Grind75/Week%20One/two_sum.js)
 - [x] Week 1: Valid Parentheses [JavaScript Solution](https://leetcode.com/problems/valid-parentheses/submissions/1636790387)
 - [x] Week 1: Merge Two Sorted Lists [Python Solution](https://leetcode.com/problems/merge-two-sorted-lists/submissions/1643468389) 
-- [ ] Week 1: Best Time to Buy and Sell Stock
+- [x] Week 1: Best Time to Buy and Sell Stock [JavaScript Solution](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1655164140)
 - [ ] Week 1: Valid Palindrome
 - [ ] Week 1: Invert Binary Tree
 - [ ] Week 1: Valid Anagram
