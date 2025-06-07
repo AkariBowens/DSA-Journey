@@ -1,3 +1,5 @@
+// Solution on LeetCode - https://github.com/AkariBowens/DSA-Journey/blob/1c25bc3fffce97ec2647a8857bd2512b0a1c4ceb/Grind75/Week%20One/valid_palindrome.js
+
 /**
  * @param {string} s
  * @return {boolean}
