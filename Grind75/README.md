@@ -5,7 +5,7 @@
 - [x] Week 1: Merge Two Sorted Lists [Python Solution](https://leetcode.com/problems/merge-two-sorted-lists/submissions/1643468389) 
 - [x] Week 1: Best Time to Buy and Sell Stock [JavaScript Solution](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1655164140)
 - [x] Week 1: Valid Palindrome [JavaScript Solution](https://github.com/AkariBowens/DSA-Journey/blob/1c25bc3fffce97ec2647a8857bd2512b0a1c4ceb/Grind75/Week%20One/valid_palindrome.js)
-- [ ] Week 1: Invert Binary Tree
+- [x] Week 1: Invert Binary Tree
 - [ ] Week 1: Valid Anagram
 - [ ] Week 1: Binary Search
 - [ ] Week 1: Flood Fill
