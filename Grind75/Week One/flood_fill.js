@@ -14,36 +14,42 @@ var floodFill = function(image, sr, sc, color) {
     // How do I decide what is adjacent / same color?
     // I must need a way to keep track of seen cells
     // If starting is the correct color, no change is made
-    const startingColor = image[sr][sc];
 
-    if(image[sr][sc] == color){
+    const startingColor = image[sr][sc];
+    const gridRows = image.length;
+    const gridCols = image[0].length;
+
+    // Returns image when the starting cell is already the new color
+    if(startingColor === color){
         return image;
     }
 
-    var depthSearch = (row, column) => {
-        image[sr][sc] = color;
+    const depthSearch = (row, column) => {
+        
+        // Checks for range
+        if(row < 0 || row >= gridRows || column < 0 || column >= gridCols) return;
 
-        while (image[sr][sc] != color){
+        // Checks if the cell's color is the same as the starting cell's color
+        if (image[row][column] !== startingColor) return;
+        
+        // Fills cell with color        
+        image[row][column] = color;
 
-        }
-
-        // Should I just do this four times?
-        // if(image[sr+1][sc] != color){
-        //     image[sr+1][sc] = color;
-        // } else {
-        //     // ??
-        //     floodFill(image[sr+ 1][sc]);
-        // }
-        floodFill(image[row + 1][column]);
-        floodFill(image[row - 1][column]);
-        floodFill(image[row][column + 1]);
-        floodFill(image[row][column - 1]);
+        // Checks all adjacent cells from current cell
+        depthSearch(row + 1, column);
+        depthSearch(row - 1, column);
+        depthSearch(row, column + 1);
+        depthSearch(row, column - 1);
     }
+    
+    depthSearch(sr, sc);
+    return image;
+}
     // so it's about adjacency
     // think of it from one point, not the whole grid
     // check it, then flood fill it? no, flood fill it and check it in the first call
 
-    // so first call would be to check if this current is the color needed
+    // so first call would be to check if this current cell is the new color 
     // I would need to save the original color to check against 
     // Then I can do if (color && startingColor)  
     // console.log(image[0][0]);
@@ -54,4 +60,4 @@ var floodFill = function(image, sr, sc, color) {
     // sr +1 -1 until empty, sc+1 -1 until empty
     // So +1, then check +1 -1
 
-};
+
