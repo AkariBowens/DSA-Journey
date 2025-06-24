@@ -8,7 +8,7 @@
 - [x] Week 1: Invert Binary Tree
 - [x] Week 1: Valid Anagram
 - [x] Week 1: Binary Search
-- [ ] Week 1: Flood Fill
+- [x] Week 1: Flood Fill
 - [ ] Week 1: Lowest Common Ancestor of a Binary Search Tree
 - [ ] Week 1: Balanced Binary Tree
 - [ ] Week 1: Linked List Cycle
